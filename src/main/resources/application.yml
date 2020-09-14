@@ -1,0 +1,22 @@
+spring:
+  output:
+    ansi:
+      enabled: always
+  datasource:
+    url: jdbc:postgresql://localhost:5432/clientmanagerdb
+    username: deathsmell
+    password: 123
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    generate-ddl: true
+    show-sql: true
+#    hibernate:
+#      ddl-auto: create
+server:
+  port: 8080
+
+project:
+  files:
+    path: /home/deathsmell/Documents/
+    doc: ClientTest.docx
+    excel: ClientsNew.xls

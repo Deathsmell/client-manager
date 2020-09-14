@@ -1,0 +1,19 @@
+{
+  "properties": [
+    {
+      "name": "project.files.excel",
+      "type": "java.lang.String",
+      "description": "Description for progect.filename.exel."
+    },
+    {
+      "name": "project.files.doc",
+      "type": "java.lang.String",
+      "description": "Description for progect.filename.doc."
+    },
+    {
+      "name": "project.files.path",
+      "type": "java.lang.String",
+      "description": "Description for progect.default.path."
+    }
+  ]
+}
